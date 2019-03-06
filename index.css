@@ -1,15 +1,16 @@
 
 nav {
+   text-align: center;
 	position: fixed;
     align-items:center;
     width: 100%;
 	height: 50px;
-	background-color: cadetblue;
 	font-size: 0;
-
+    background-position: center;
 }
 nav a {
-    margin:35px; 
+    margin-left: 20px;
+    margin: 0.9%;
     line-height: 50px;
 	height: 100%;
 	font-size: 15px;
@@ -20,7 +21,8 @@ nav a {
 	text-align: center;
 	color: white;
 	cursor: pointer;   
-    
+    align-items: flex-end;
+    background-attachment: inherit;
 }
 a:nth-child(1) {
 	width: auto;
@@ -94,8 +96,7 @@ a:nth-child(14) {
 }
 
 section{
-  border-bottom-style: groove;
-    
+  border: groove;
 }
 
 body {
@@ -105,6 +106,7 @@ body {
 }
 
 h1 {
+    
 	text-align: center;
 	margin: 40px 0 40px;
 	text-align: center;
@@ -112,6 +114,7 @@ h1 {
 	color: #ecf0f1;
 	text-shadow: 2px 2px 4px #000000;
 	font-family: 'Cherry Swash', cursive;
+    
 }
 
 
@@ -260,6 +263,7 @@ textarea {
 }
 
 .submit {
+    width: 200px;
     float: right;
     padding: 7px 35px;
     border-radius: 60px;
@@ -280,8 +284,22 @@ textarea {
               0 1px 1px 0 rgba(0,0,0,0.09);
 }
 
+#aboutP{
+    font-size:19px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Roboto';
+    width: 60%;
+    align-items: center;
+    margin-left: 20%;
+}
+#qrCode{
+    align-items: center;
+	margin: 40px 0 40px;
+    	text-align: center;
 
+}
 
-
-
+#divLike{
+    text-align: center;     
+}
 
