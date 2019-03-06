@@ -231,7 +231,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 input,
 textarea {
-    padding: 30px;
+    padding:25px;
     border: 0;
     width: 100%;
     font-size: 1rem;
@@ -303,3 +303,6 @@ textarea {
     text-align: center;     
 }
 
+#music{
+    text-align: center;
+}
